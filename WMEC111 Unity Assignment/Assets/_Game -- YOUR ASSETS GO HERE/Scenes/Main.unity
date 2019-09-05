@@ -12601,7 +12601,7 @@ Transform:
   m_LocalScale: {x: 0.30353263, y: 0.2355929, z: 0.33647898}
   m_Children: []
   m_Father: {fileID: 1519259368}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.171}
 --- !u!136 &619800191
 CapsuleCollider:
@@ -21567,8 +21567,8 @@ Transform:
   - {fileID: 1216740983}
   - {fileID: 164811636}
   - {fileID: 991416770}
-  - {fileID: 619800190}
   - {fileID: 2105063797}
+  - {fileID: 619800190}
   - {fileID: 1700722930}
   m_Father: {fileID: 1521743561}
   m_RootOrder: 1
@@ -21676,7 +21676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChaseRange: 10
-  StopRange: 0
+  StopRange: 3
   target: {fileID: 1214212903}
 --- !u!195 &1521743566
 NavMeshAgent:
@@ -22480,7 +22480,7 @@ GameObject:
   - component: {fileID: 1700722932}
   - component: {fileID: 1700722931}
   m_Layer: 0
-  m_Name: head (1)
+  m_Name: headobject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24601,7 +24601,7 @@ Transform:
   m_LocalScale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
   m_Children: []
   m_Father: {fileID: 1519259368}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -169.144, y: -90, z: 89.99999}
 --- !u!108 &2105063798
 Light:
